@@ -32,10 +32,10 @@ public class PlayerInput : MonoBehaviour {
         // move에 관한 입력 감지
         move = Input.GetAxis(moveAxisName);
         // rotate에 관한 입력 감지
-        rotate = Input.GetAxis(moveAxisName);
+        rotate = Input.GetAxis(rotateAxisName);
         // fire에 관한 입력 감지
-        fire = Input.GetButton(moveAxisName);
+        fire = Input.GetButton(fireButtonName);
         // reload에 관한 입력 감지
-        reload = Input.GetButton(moveAxisName);
+        reload = Input.GetButtonDown(reloadButtonName);
     }
 }
