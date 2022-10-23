@@ -1,0 +1,1223 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/USER/UnityProject/GitHub/ZombieSurvival/Zombie
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+3422
+Successfully changed project path to: C:/Users/USER/UnityProject/GitHub/ZombieSurvival/Zombie
+C:/Users/USER/UnityProject/GitHub/ZombieSurvival/Zombie
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 77.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/UnityProject/GitHub/ZombieSurvival/Zombie/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3990 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003665 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 79.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.530 seconds
+Domain Reload Profiling:
+	ReloadAssembly (531ms)
+		BeginReloadAssembly (55ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (390ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (87ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (238ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003129 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\ZombieSurvival\Zombie\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\ZombieSurvival\Zombie\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Domain Reload Profiling:
+	ReloadAssembly (984ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (696ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3774 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (11.7 MB). Loaded Objects now: 4164.
+Memory consumption went from 242.8 MB to 231.1 MB.
+Total: 14.733900 ms (FindLiveObjects: 0.519800 ms CreateObjectMapping: 0.253500 ms MarkObjects: 4.160800 ms  DeleteObjects: 9.798200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 659.867403 seconds.
+  path: Assets/03.Models/Level Art/fenceIronGate.fbx
+  artifactKey: Guid(430eb1a4518907e47b6d7c5534b0ac19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/fenceIronGate.fbx using Guid(430eb1a4518907e47b6d7c5534b0ac19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0aa7ae5835d909669ede2a2fa320e885') in 0.205058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/02.Prefabs/Gun.prefab
+  artifactKey: Guid(13259943c4d634186ac994d570bb3253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/02.Prefabs/Gun.prefab using Guid(13259943c4d634186ac994d570bb3253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fdf7c1b818fd06384fc2c018266517b') in 0.014093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/03.Models/Heart.obj
+  artifactKey: Guid(07d0c18f46bf64565a33789d47146ee3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Heart.obj using Guid(07d0c18f46bf64565a33789d47146ee3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9970a9129c3ceac74cc1de126f7af8f0') in 0.015508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/04.Materials/woodDark.mat
+  artifactKey: Guid(278da1abbff7f8a43be831b7d1b6db0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Materials/woodDark.mat using Guid(278da1abbff7f8a43be831b7d1b6db0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb4b7dbd68f4810b0d21e1c49dbd643b') in 0.022266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/05.Textures/FlashParticle.tif
+  artifactKey: Guid(c826d12aca5bdda4c900b00833f6d875) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/05.Textures/FlashParticle.tif using Guid(c826d12aca5bdda4c900b00833f6d875) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7af88cf066ae400708d294c476c230ec') in 0.041458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/05.Textures/WomanSkin.png
+  artifactKey: Guid(4d46cb08a42e04c61898960ab0184dcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/05.Textures/WomanSkin.png using Guid(4d46cb08a42e04c61898960ab0184dcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d285d8556e2143c437471d72b36d5e4') in 0.044152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/00.Scenes/Main/LightingData.asset
+  artifactKey: Guid(a9b5c673322e58345a030cb0588539bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/00.Scenes/Main/LightingData.asset using Guid(a9b5c673322e58345a030cb0588539bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4f1c65791b67a70579e2e49fbaeab1a') in 0.010286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/04.Materials/EmbersParticle.mat
+  artifactKey: Guid(776677ab3818fb249adaca05f4e04545) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Materials/EmbersParticle.mat using Guid(776677ab3818fb249adaca05f4e04545) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d45cf10068502239e3fcf96c7057ac5') in 0.011442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/09.Animations/Human Death.anim
+  artifactKey: Guid(85e9d7cbab6dbe74eb1b9b4ff8bf34d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09.Animations/Human Death.anim using Guid(85e9d7cbab6dbe74eb1b9b4ff8bf34d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1415d8b14bad1f314b91d7c160939959') in 0.041903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/05.Textures/ZombieSkin.png
+  artifactKey: Guid(ef99e0ff31f774335a1a35c9038a915b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/05.Textures/ZombieSkin.png using Guid(ef99e0ff31f774335a1a35c9038a915b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f06d4eeb70be01cc4dc6d5824b28120f') in 0.014705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/01.Scripts/GameManager.cs
+  artifactKey: Guid(1420161236dfe4f468d1720bf58bab57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/01.Scripts/GameManager.cs using Guid(1420161236dfe4f468d1720bf58bab57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b9fcf9fdbdd8433a945555a7bdd5e32') in 0.036212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/03.Models/Level Art/borderPillar.fbx
+  artifactKey: Guid(2bb86db456138ed4e8e44611ad790e8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/borderPillar.fbx using Guid(2bb86db456138ed4e8e44611ad790e8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cee09fbcf7ecb80fdf447410db5db6dd') in 0.020006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/09.Animations/Humanoid Idle.anim
+  artifactKey: Guid(357382166fc6bfb41b6c0367cd4df8a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09.Animations/Humanoid Idle.anim using Guid(357382166fc6bfb41b6c0367cd4df8a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab328a497a474fcff7deeeab5fa1f2e0') in 0.021001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/03.Models/Level Art/fenceIron.fbx
+  artifactKey: Guid(4489514464f1d524585fb237a498b1a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/fenceIron.fbx using Guid(4489514464f1d524585fb237a498b1a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61d6772d3b16c8b4a3b3189fdab2538c') in 0.030587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/03.Models/Level Art/debris.fbx
+  artifactKey: Guid(a1264b7d795ad364ea9d20ac3d27bfaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/debris.fbx using Guid(a1264b7d795ad364ea9d20ac3d27bfaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd14241da3e47a166a07879525d3e1faf') in 0.016229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/01.Scripts/PlayerMovement.cs
+  artifactKey: Guid(e100dcbf088ffe543a5834e17f36f83e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/01.Scripts/PlayerMovement.cs using Guid(e100dcbf088ffe543a5834e17f36f83e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d2e7a6e4107cb20a7d142356ace75d3') in 0.006677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/04.Materials/ShallCasing.mat
+  artifactKey: Guid(713f8d12f5dbfb640b7a4874212c2c08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Materials/ShallCasing.mat using Guid(713f8d12f5dbfb640b7a4874212c2c08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd437044ec10a5234d32978c555c8326') in 0.013340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/00.Scenes/Main/Lightmap-0_comp_dir.png
+  artifactKey: Guid(69e61ca224c613846aa0110fc2b5a9d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/00.Scenes/Main/Lightmap-0_comp_dir.png using Guid(69e61ca224c613846aa0110fc2b5a9d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '467e61507d0a4b374e9b1897592d0ed3') in 0.021698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/04.Materials/Coin.mat
+  artifactKey: Guid(190806c901b524f8781390fc6c99143a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Materials/Coin.mat using Guid(190806c901b524f8781390fc6c99143a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8025c12cd48ece6dba03c9169fa5be3') in 0.014068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/09.Animations/Humanoid Walk.anim
+  artifactKey: Guid(763c5abd9f23ce041a8b9a784d6f035d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09.Animations/Humanoid Walk.anim using Guid(763c5abd9f23ce041a8b9a784d6f035d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e58dd239549fac83d61f0cd563f9aa71') in 0.039018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/04.Materials/Woman.mat
+  artifactKey: Guid(48b71ac7d7036422481d417489b38001) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Materials/Woman.mat using Guid(48b71ac7d7036422481d417489b38001) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c16eeb86d94f4faa3c62bc13e0d60a0') in 0.008001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/05.Textures/FlameRoundParticleSheet.tif
+  artifactKey: Guid(408718fd5f763de42b12f849570ddf58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/05.Textures/FlameRoundParticleSheet.tif using Guid(408718fd5f763de42b12f849570ddf58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f8de47edcbd9ea48bac3dbb6a28dc3e') in 0.034946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/07.Audios/Woman Die.ogg
+  artifactKey: Guid(4265c953ea2b74edabac0c972182dcba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/07.Audios/Woman Die.ogg using Guid(4265c953ea2b74edabac0c972182dcba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '677531584a5321309d4d8d62ff717f81') in 0.075101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/04.Materials/FlameRoundYellowParticle.mat
+  artifactKey: Guid(d7f098ed9997e714193be5e86df013f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Materials/FlameRoundYellowParticle.mat using Guid(d7f098ed9997e714193be5e86df013f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d33e6e03b5ab74c4f84af2b9af0221d') in 0.012033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/04.Materials/wood.mat
+  artifactKey: Guid(e3c8546e4b2e3154eb02b0e326c3428d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Materials/wood.mat using Guid(e3c8546e4b2e3154eb02b0e326c3428d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0fdecc5bd02b4e9c96c850e364ba28e') in 0.008016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/02.Prefabs/ParticlesLight.prefab
+  artifactKey: Guid(fa35d75604d172d48b7a6b62a07c7dbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/02.Prefabs/ParticlesLight.prefab using Guid(fa35d75604d172d48b7a6b62a07c7dbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57812d142bcd290945384babf3acf5ec') in 0.018211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/09.Animations/Zombie Animator.controller
+  artifactKey: Guid(8eebe7519312a5c4eaeed6cd5ebb0411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09.Animations/Zombie Animator.controller using Guid(8eebe7519312a5c4eaeed6cd5ebb0411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd485a9088248c801a4bf61c64bdb84c6') in 0.117613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/03.Models/Coin.fbx
+  artifactKey: Guid(06b984149946d44da919e9a66bcbe4d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Coin.fbx using Guid(06b984149946d44da919e9a66bcbe4d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96104666c5ecb0d1a4dfeb8602e8c2a2') in 0.018758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/05.Textures/DustPuffSmallParticleSheet.png
+  artifactKey: Guid(1c1f5fdffb8c5a944a978e8debb8fdfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/05.Textures/DustPuffSmallParticleSheet.png using Guid(1c1f5fdffb8c5a944a978e8debb8fdfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bca8949bb7258cfe70f884beb7415a6') in 0.033914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/02.Prefabs/Spawn Points.prefab
+  artifactKey: Guid(5314e1f0757cf4cf79d58731d117e6cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/02.Prefabs/Spawn Points.prefab using Guid(5314e1f0757cf4cf79d58731d117e6cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ec3f48e18b9505092a20fff75d673ea') in 0.015551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/07.Audios/Gun Shoot.wav
+  artifactKey: Guid(b82a66dab749415458d1f6600c997095) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/07.Audios/Gun Shoot.wav using Guid(b82a66dab749415458d1f6600c997095) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9df723cabe02c49048e621f639eda657') in 0.042249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/03.Models/Level Art/fenceIronBorder.fbx
+  artifactKey: Guid(a63b49226ab815941ab7641e40d48ad6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/fenceIronBorder.fbx using Guid(a63b49226ab815941ab7641e40d48ad6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3eaa0797c9a5a4002f10b514c93d4d23') in 0.032243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/03.Models/Level Art/fenceIronBorderPillar.fbx
+  artifactKey: Guid(3b92048e45df415429b4bb59eb913f85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/fenceIronBorderPillar.fbx using Guid(3b92048e45df415429b4bb59eb913f85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc2ee0b6f6596e58e6bd9bac86a6dbfe') in 0.031691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/06.Sprites/icon.png
+  artifactKey: Guid(3fabdb4028fcd41afae825e878941aff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/06.Sprites/icon.png using Guid(3fabdb4028fcd41afae825e878941aff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c04b89fc4d317a4b93050e476b803dc1') in 0.024369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/00.Scenes/Main/Lightmap-0_comp_light.exr
+  artifactKey: Guid(f3b5e71d7c57e2d4da97bb8223e177f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/00.Scenes/Main/Lightmap-0_comp_light.exr using Guid(f3b5e71d7c57e2d4da97bb8223e177f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f41aa32209a436a6eb459098f436b18') in 0.021745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/09.Animations/Reload.anim
+  artifactKey: Guid(da652e5dee81e1e4fb45856c799c0268) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09.Animations/Reload.anim using Guid(da652e5dee81e1e4fb45856c799c0268) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '631991c7dd2f93ada7e50ae6d5e0d7d2') in 0.023510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/04.Materials/stone.mat
+  artifactKey: Guid(0e1d04ffdfec3a34a9d7884aed510d1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Materials/stone.mat using Guid(0e1d04ffdfec3a34a9d7884aed510d1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '794829993a5f28bcac227b23507f039b') in 0.008966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/06.Sprites/frame.png
+  artifactKey: Guid(570c2d63c0cdf48029814252057afe73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/06.Sprites/frame.png using Guid(570c2d63c0cdf48029814252057afe73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '530e4502e311c5b25a5ca2752d04c6a1') in 0.019819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/03.Models/Level Art/bench.fbx
+  artifactKey: Guid(5b77a2cb0406e3f4d8346d7942a15177) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/bench.fbx using Guid(5b77a2cb0406e3f4d8346d7942a15177) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c63e44f803a37d01b8897861202a7511') in 0.020449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/04.Materials/wax.mat
+  artifactKey: Guid(8b1a561994917ba46b505b78469f463d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Materials/wax.mat using Guid(8b1a561994917ba46b505b78469f463d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '620d7c023566552bf8d5d1316cde886b') in 0.012204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/08.Fonts/Kenney Future Narrow.ttf
+  artifactKey: Guid(283293d8ea65c4eddb2510294604a8b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/08.Fonts/Kenney Future Narrow.ttf using Guid(283293d8ea65c4eddb2510294604a8b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ffac76083e5a5da55f95aed8a30867b') in 0.043966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/04.Materials/metal.mat
+  artifactKey: Guid(5bf0f2c3a9c57564ebe2dc5101981635) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Materials/metal.mat using Guid(5bf0f2c3a9c57564ebe2dc5101981635) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf629bd1cc8b975fb1f825009d9eea6e') in 0.008246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/07.Audios/Pick Up.ogg
+  artifactKey: Guid(519ad2e4de69341948a938bf2a31e33b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/07.Audios/Pick Up.ogg using Guid(519ad2e4de69341948a938bf2a31e33b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74cdaaeca8eef75d2d8922d26b270ab7') in 0.037227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/01.Scripts/PlayerInput.cs
+  artifactKey: Guid(618ff0415a7d5fd458e5f93f85a48fe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/01.Scripts/PlayerInput.cs using Guid(618ff0415a7d5fd458e5f93f85a48fe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d9fcbca1ca42040d24805a4bd356e30') in 0.006167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/02.Prefabs/HUD Canvas.prefab
+  artifactKey: Guid(63226789a2ac34fec8493b064c47bd44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/02.Prefabs/HUD Canvas.prefab using Guid(63226789a2ac34fec8493b064c47bd44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35905f2878aab372b79f6ab310be0894') in 0.035489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/00.Scenes/Main/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(c95ed5175c224a1479fd13b3fcb1ebc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/00.Scenes/Main/Lightmap-0_comp_shadowmask.png using Guid(c95ed5175c224a1479fd13b3fcb1ebc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '205504fb7da09327042e2a629e175652') in 0.024434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/04.Materials/SmokeLightParticle.mat
+  artifactKey: Guid(f06455b167e1b0b428c9af62d7aa6832) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Materials/SmokeLightParticle.mat using Guid(f06455b167e1b0b428c9af62d7aa6832) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72ec5626f0bdac65289deb1a6b636715') in 0.029948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/04.Materials/MuzzleFlashParticle.mat
+  artifactKey: Guid(527027c8baf2f0540be3104a3ec38a99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Materials/MuzzleFlashParticle.mat using Guid(527027c8baf2f0540be3104a3ec38a99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b4d1fec02d63af3e1934c8803ffcf5d') in 0.013928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/04.Materials/Grass.mat
+  artifactKey: Guid(32d4c6ca8b8b94c0fb75f01f06d0d8ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Materials/Grass.mat using Guid(32d4c6ca8b8b94c0fb75f01f06d0d8ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '152fe39ad90b8b8ff0269a44a568ad4f') in 0.008095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/04.Materials/Gold.mat
+  artifactKey: Guid(0b1a09e88ee404aeb9a7fe9516ee7a19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Materials/Gold.mat using Guid(0b1a09e88ee404aeb9a7fe9516ee7a19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd68d02a38ac8b935e74d2db3088967db') in 0.013450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/09.Animations/Upper Body Mask.mask
+  artifactKey: Guid(a0bb31f6cca2c444dabf132a8b2b5f93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/09.Animations/Upper Body Mask.mask using Guid(a0bb31f6cca2c444dabf132a8b2b5f93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd54957fb25b67214a1c20ec67aacf0e0') in 0.009052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/04.Materials/Water.mat
+  artifactKey: Guid(6617b103cabcb4150adc8dfa6d5a574d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Materials/Water.mat using Guid(6617b103cabcb4150adc8dfa6d5a574d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23f50353dcca9274d7ed848fa699c279') in 0.011859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/04.Materials/BloodSplatParticle.mat
+  artifactKey: Guid(3ea2e59d181ffce4e97d5d1d07a22c05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Materials/BloodSplatParticle.mat using Guid(3ea2e59d181ffce4e97d5d1d07a22c05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23318297eeca76f988a5f53d88ca3763') in 0.021827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/00.Scenes/Main Light Settings.lighting
+  artifactKey: Guid(17e0c8b998de13145a1278e7092d1b18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/00.Scenes/Main Light Settings.lighting using Guid(17e0c8b998de13145a1278e7092d1b18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd22ab311788ab98592355389efc27494') in 0.021468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/07.Audios/Woman Damage.ogg
+  artifactKey: Guid(cbfb3a79860ac42c89b09fc131ef4b61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/07.Audios/Woman Damage.ogg using Guid(cbfb3a79860ac42c89b09fc131ef4b61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5004860e8cae66aa705c4e9c572c585e') in 0.039357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/00.Scenes/Main/ReflectionProbe-0.exr
+  artifactKey: Guid(375893c54abf9954eb7b869e95b20210) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/00.Scenes/Main/ReflectionProbe-0.exr using Guid(375893c54abf9954eb7b869e95b20210) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b80f55c73c1ab4bd684dfdfd04683d05') in 0.018864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.432900 seconds.
+  path: Assets/03.Models/Level Art/fenceStone.fbx
+  artifactKey: Guid(64d7a7ae5b3cb1a46afdc8fa2eea424c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/fenceStone.fbx using Guid(64d7a7ae5b3cb1a46afdc8fa2eea424c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c113267fe55f645edd9fcc46a957d2be') in 0.016376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_StencilMask.shader
+  artifactKey: Guid(036bc90bfe3475b4c9fadb85d0520621) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_StencilMask.shader using Guid(036bc90bfe3475b4c9fadb85d0520621) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aeee93aad3b8e9dc3634d262dfda3ad6') in 0.018591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/03.Models/Level Art/lanternSingle.fbx
+  artifactKey: Guid(b7383b0bef248624295745f3e1b98688) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/lanternSingle.fbx using Guid(b7383b0bef248624295745f3e1b98688) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ac6189319ce3f11eaf20b4c35588535') in 0.021356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_Clipping_StencilOut.shader
+  artifactKey: Guid(ed7fba947f3bccb4cbc78f55d7a56a70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_Clipping_StencilOut.shader using Guid(ed7fba947f3bccb4cbc78f55d7a56a70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b217d5892f50a6bede4f7f807232e90b') in 0.019716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_StencilOut.shader
+  artifactKey: Guid(0a1e4c9dcc0e9ea4db38ae9cb5059608) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_StencilOut.shader using Guid(0a1e4c9dcc0e9ea4db38ae9cb5059608) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf8d5ae0b899d114847a53797bfd80cc') in 0.019514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Picola/Toon/Shader/ToonColor_DoubleShadeWithFeather_TransClipping_StencilMask.shader
+  artifactKey: Guid(8600b2bec3ae31145afa80084df20c61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/ToonColor_DoubleShadeWithFeather_TransClipping_StencilMask.shader using Guid(8600b2bec3ae31145afa80084df20c61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e346048806742a1c327d34b98e37de5') in 0.019037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/03.Models/Level Art/shovelDirt.fbx
+  artifactKey: Guid(088c6303db5b58649907d1856773fc61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/shovelDirt.fbx using Guid(088c6303db5b58649907d1856773fc61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0ab82b462f7f771fc77627dd476019f') in 0.018654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile.shader
+  artifactKey: Guid(1d10c7840eb6ba74c889a27f14ba6081) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile.shader using Guid(1d10c7840eb6ba74c889a27f14ba6081) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d471918f57df3532b88a1aed18d8df3') in 0.019960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Picola/PicoChan/Textures/pico_chan_chr_pico_00_face_c.png
+  artifactKey: Guid(c859e58b31490ab4c95b165ff9449821) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Textures/pico_chan_chr_pico_00_face_c.png using Guid(c859e58b31490ab4c95b165ff9449821) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab59eeb94d6e201a4cdf636c64283f63') in 0.046970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_TransClipping_StencilMask.shader
+  artifactKey: Guid(100d373b596f44d49ac9bb944d671d32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_TransClipping_StencilMask.shader using Guid(100d373b596f44d49ac9bb944d671d32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb0d69d7d457eeac9f0858f1877713d4') in 0.023474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Picola/Toon/Shader/ToonColor_ShadingGradeMap_AngelRing.shader
+  artifactKey: Guid(295fec4a7029edd4eb9522bef07f41ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/ToonColor_ShadingGradeMap_AngelRing.shader using Guid(295fec4a7029edd4eb9522bef07f41ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '075a1d118ae8d670752d76c19af4f079') in 0.021803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_OutlineObject_StencilOut.shader
+  artifactKey: Guid(2e2edd12fbf6bcb4ea1f34c17ee42df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_OutlineObject_StencilOut.shader using Guid(2e2edd12fbf6bcb4ea1f34c17ee42df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2638285827a1ced52f62b687dadd3791') in 0.012516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Picola/PicoChan/Textures/pico_chan_chr_pico_00_eye_c.png
+  artifactKey: Guid(1268dd8f8ea75114b92b482aa2d01c11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Textures/pico_chan_chr_pico_00_eye_c.png using Guid(1268dd8f8ea75114b92b482aa2d01c11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '123fd2e965ddae489f2715cf576df5ed') in 0.031857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/03.Models/Level Art/gravestoneDecorative.fbx
+  artifactKey: Guid(e1ccc340231b1e945b3cbeb2ada3a02e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/gravestoneDecorative.fbx using Guid(e1ccc340231b1e945b3cbeb2ada3a02e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5bcfd2e607a57ce3f3d6996067d7d101') in 0.040778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/03.Models/Level Art/roadTile_023.fbx
+  artifactKey: Guid(f10179b7795770343960297257ddeb28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/roadTile_023.fbx using Guid(f10179b7795770343960297257ddeb28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a21a0b69bb57b4017d512a95b0ad0bc') in 0.027375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/03.Models/Level Art/roadTile_252.fbx
+  artifactKey: Guid(512bef4fd6304ef4b85c12d0fd637dd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/roadTile_252.fbx using Guid(512bef4fd6304ef4b85c12d0fd637dd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd68743fd4223699288ddf3379828bb59') in 0.025467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_ShadingGradeMap_Mobile_TransClipping_StencilMask.shader
+  artifactKey: Guid(e88039bab21b7894e918126e8fce5d1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_ShadingGradeMap_Mobile_TransClipping_StencilMask.shader using Guid(e88039bab21b7894e918126e8fce5d1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2446feb861d3240fa62dbb9cd2ea66f') in 0.020387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_Light_StencilOut.shader
+  artifactKey: Guid(79d3dc54c32b69b42be17c48d33575f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_Light_StencilOut.shader using Guid(79d3dc54c32b69b42be17c48d33575f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c352fe52f8566a94ab0adac326ba710') in 0.021440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/Toon_OutlineObject_Tess.shader
+  artifactKey: Guid(1847c44f729b68e49ba63610abdf9132) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/Toon_OutlineObject_Tess.shader using Guid(1847c44f729b68e49ba63610abdf9132) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae3f79dd445d20d4e805449149bda745') in 0.014946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_ShadingGradeMap_StencilMask.shader
+  artifactKey: Guid(aa2e05ed58ca15441bd0989f008da78b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_ShadingGradeMap_StencilMask.shader using Guid(aa2e05ed58ca15441bd0989f008da78b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39ad3aba5e75ee710102a72ff81e9a93') in 0.021752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Picola/PicoChan/Materials/pico_eye_m.mat
+  artifactKey: Guid(878aefd75248a2046904bc20188aeef8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Materials/pico_eye_m.mat using Guid(878aefd75248a2046904bc20188aeef8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c7ac6c7d8802382549a5780a89420b0') in 0.032701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Picola/PicoChan/Materials/pico_body_m.mat
+  artifactKey: Guid(4d9e79636f142374baf5df39ad6fe194) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Materials/pico_body_m.mat using Guid(4d9e79636f142374baf5df39ad6fe194) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2c53c23264ae83c853c23d255004c3a') in 0.070019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Picola/PicoChan/CHANGELOG.ja.md
+  artifactKey: Guid(a334f361dec26954e9e62cba9b4ddbb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/CHANGELOG.ja.md using Guid(a334f361dec26954e9e62cba9b4ddbb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad6ad2e6ba5109927e4e1bab76e403a2') in 0.022446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Picola/Toon/Shader/ToonColor_DoubleShadeWithFeather_Transparent_StencilOut.shader
+  artifactKey: Guid(3b20fc0febd34f94baf0304bf47841d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/ToonColor_DoubleShadeWithFeather_Transparent_StencilOut.shader using Guid(3b20fc0febd34f94baf0304bf47841d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2fbb65c4ce535770289d1f116d8646dd') in 0.020427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_ShadingGradeMap_TransClipping_StencilMask.shader
+  artifactKey: Guid(0a05dd221bacbb448afac3d63e6bd833) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_ShadingGradeMap_TransClipping_StencilMask.shader using Guid(0a05dd221bacbb448afac3d63e6bd833) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e07c2b1e200b6b32ad46b1e6309f89ba') in 0.022059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/03.Models/Level Art/roadTile_014.fbx
+  artifactKey: Guid(ee3a89c63cf95fa4c92cd786d0d4385a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/roadTile_014.fbx using Guid(ee3a89c63cf95fa4c92cd786d0d4385a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbf264f7c252fd9ccc48fc5880ae6476') in 0.026988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess.shader
+  artifactKey: Guid(3a1af221400a61a4b94bae19aa79da2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess.shader using Guid(3a1af221400a61a4b94bae19aa79da2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2c9cb5b409b7043ad29ce2203031827') in 0.023192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Picola/PicoChan/Materials/pico_hair_m.mat
+  artifactKey: Guid(9db64f59438bddf4fa3a1e4514aa10f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Materials/pico_hair_m.mat using Guid(9db64f59438bddf4fa3a1e4514aa10f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a40d66709a020b69ea0921799e0db34a') in 0.122980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/03.Models/Level Art/trunk.fbx
+  artifactKey: Guid(f6684beaf24bbe241ac4217c676f1330) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/trunk.fbx using Guid(f6684beaf24bbe241ac4217c676f1330) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2903933ee182468ff770cc82a8c9f93a') in 0.029020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/ToonColor_ShadingGradeMap_AngelRing_Tess_StencilOut.shader
+  artifactKey: Guid(7c48bdc9fed28c14b8ad0748673b1369) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/ToonColor_ShadingGradeMap_AngelRing_Tess_StencilOut.shader using Guid(7c48bdc9fed28c14b8ad0748673b1369) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76baeb7fdbc07897466e01a66a9cff4b') in 0.024940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_ShadingGradeMap_Mobile_TransClipping.shader
+  artifactKey: Guid(cce1da34c52aff745adf0222f56a356c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_ShadingGradeMap_Mobile_TransClipping.shader using Guid(cce1da34c52aff745adf0222f56a356c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c893a44332ab32e9108521bd3179209') in 0.025017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Picola/Toon/Shader/README.txt
+  artifactKey: Guid(4c57a42f315f467488f69755e6a7d42c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/README.txt using Guid(4c57a42f315f467488f69755e6a7d42c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebfb746880eadc27096fe7dd09ce2c63') in 0.018516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Transparent_Tess_StencilOut.shader
+  artifactKey: Guid(f28bba8b2f259bb40b697d91849c8794) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Transparent_Tess_StencilOut.shader using Guid(f28bba8b2f259bb40b697d91849c8794) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cf8345dac9f3e67b4de8c210dfaf26c') in 0.025670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Tess.shader
+  artifactKey: Guid(e987cf9cca0941042aa68d1dd51ee20f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Tess.shader using Guid(e987cf9cca0941042aa68d1dd51ee20f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a305710c214306cf708352b18537d0fc') in 0.029141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Picola/Toon/Shader/ToonColor_DoubleShadeWithFeather_Clipping_StencilOut.shader
+  artifactKey: Guid(d7da29588857e774bb0650f1fae494c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/ToonColor_DoubleShadeWithFeather_Clipping_StencilOut.shader using Guid(d7da29588857e774bb0650f1fae494c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4ed7a91bad5b2a0855f24b105556891') in 0.026237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_StencilMask.shader
+  artifactKey: Guid(0d799eb857c0e2c45bbdfb2c033d33e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_StencilMask.shader using Guid(0d799eb857c0e2c45bbdfb2c033d33e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11e294ffa1d8a3d8c0f94f03a9fef7d7') in 0.019609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Picola/Toon/Shader/ToonColor_DoubleShadeWithFeather_StencilOut.shader
+  artifactKey: Guid(2e5cc2da6af713844956264245e092e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/ToonColor_DoubleShadeWithFeather_StencilOut.shader using Guid(2e5cc2da6af713844956264245e092e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e15a0393d86c4de583e00953a0928b6') in 0.020900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Picola/Toon/Shader/UCTS_Outline.cginc
+  artifactKey: Guid(ec7b5c1d006f6be49b412bcd7a789c78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/UCTS_Outline.cginc using Guid(ec7b5c1d006f6be49b412bcd7a789c78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61379bd6ed816a0030cb3d0a2f12e2a0') in 0.015093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Tess_StencilOut.shader
+  artifactKey: Guid(b179fb8a87955a347b5f594a18b43475) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Tess_StencilOut.shader using Guid(b179fb8a87955a347b5f594a18b43475) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd509789d69c79b8f9ff7f2cd2c0e8cf6') in 0.020647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/UCTS_ShadingGradeMap_tess.cginc
+  artifactKey: Guid(ad7807131760d5544843d7424e535b75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/UCTS_ShadingGradeMap_tess.cginc using Guid(ad7807131760d5544843d7424e535b75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e6de155895b5a7c39994be8b8a58bfd') in 0.013407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_Light_StencilMask.shader
+  artifactKey: Guid(3073cd2564e4cde45a19c05e0012d22a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_Light_StencilMask.shader using Guid(3073cd2564e4cde45a19c05e0012d22a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4951b30ba6b3709f887b28856ae7864d') in 0.019566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Picola/PicoChan/README.ja.md
+  artifactKey: Guid(5b9ae785172e96e4a9a7d97b3b411d76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/README.ja.md using Guid(5b9ae785172e96e4a9a7d97b3b411d76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77552326b897a8e777929eb4b8e763bf') in 0.014230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/ToonColor_ShadingGradeMap_Tess_StencilOut.shader
+  artifactKey: Guid(9cf7e8eb46e9128438d50adf7a841de6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/ToonColor_ShadingGradeMap_Tess_StencilOut.shader using Guid(9cf7e8eb46e9128438d50adf7a841de6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45313a8101b6e3b18344a7e8f04b67c1') in 0.022701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Picola/Toon/Shader/UCTS_ShadingGradeMap.cginc
+  artifactKey: Guid(eca315d4d2d36194b8be3cf2a6869762) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/UCTS_ShadingGradeMap.cginc using Guid(eca315d4d2d36194b8be3cf2a6869762) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28d351b18bec408ee04213053c2b564e') in 0.013531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Picola/PicoChan/CHANGELOG.md
+  artifactKey: Guid(0a0d8b9bde3f5194ba2132cc4dc1df9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/CHANGELOG.md using Guid(0a0d8b9bde3f5194ba2132cc4dc1df9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '341372f2d00108afec884784513ef9ff') in 0.014120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_StencilOut.shader
+  artifactKey: Guid(55e8b9eeaaff205469365133fe7bc744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_StencilOut.shader using Guid(55e8b9eeaaff205469365133fe7bc744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b72e3124a4a7d7b9bd5e911b922ac5e0') in 0.020034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_StencilOut.shader
+  artifactKey: Guid(18c9172cdf36a344f9aca9bbc0e7002d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_StencilOut.shader using Guid(18c9172cdf36a344f9aca9bbc0e7002d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '970b7592ca033872ef10d8f7b8d0a572') in 0.021302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/ToonColor_ShadingGradeMap_AngelRing_TransClipping_Tess_StencilOut.shader
+  artifactKey: Guid(11e8f1e181e558a47a387492d3ecdb88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/ToonColor_ShadingGradeMap_AngelRing_TransClipping_Tess_StencilOut.shader using Guid(11e8f1e181e558a47a387492d3ecdb88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '863bee1886dd65663cbb72d476c47f3c') in 0.022714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/ToonColor_ShadingGradeMap_TransClipping_Tess_StencilOut.shader
+  artifactKey: Guid(8eff803eae89c994fae3acf2f686fafa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/ToonColor_ShadingGradeMap_TransClipping_Tess_StencilOut.shader using Guid(8eff803eae89c994fae3acf2f686fafa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79111a6dc60121674561501acf36bf33') in 0.021946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/Toon_ShadingGradeMap_TransClipping_Tess_StencilMask.shader
+  artifactKey: Guid(8d1395a9f4bfad44d8fddd0f2af19b1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/Toon_ShadingGradeMap_TransClipping_Tess_StencilMask.shader using Guid(8d1395a9f4bfad44d8fddd0f2af19b1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '176da9418f6d46caf7785896285f9c80') in 0.020463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_ShadingGradeMap_AngelRing_StencilOut.shader
+  artifactKey: Guid(415f07ab6fd766048ac6f8c2f2b406a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_ShadingGradeMap_AngelRing_StencilOut.shader using Guid(415f07ab6fd766048ac6f8c2f2b406a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c60cf9f55e0d0a939c3d6bd8e7858ec0') in 0.021917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess.shader
+  artifactKey: Guid(183ea557143786346b1bfc862ad22636) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess.shader using Guid(183ea557143786346b1bfc862ad22636) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f75714b5b4a0dba7d8f60a43ec41225d') in 0.021765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_ShadingGradeMap_TransClipping_StencilOut.shader
+  artifactKey: Guid(67212ac11ff43b04a833d3986b997a9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_ShadingGradeMap_TransClipping_StencilOut.shader using Guid(67212ac11ff43b04a833d3986b997a9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd18b73251dc324dcb5ce3b5030d1eaa0') in 0.018873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_TransClipping_Tess.shader
+  artifactKey: Guid(54a94f776a43a074c8c2d205bb934005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_TransClipping_Tess.shader using Guid(54a94f776a43a074c8c2d205bb934005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f7c423de0ca660a0f15877dc7a8557b') in 0.021171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Picola/Toon/Shader/UCTS_ShadowCaster.cginc
+  artifactKey: Guid(ae8d06deb98501947846000ba6cd3ab2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/UCTS_ShadowCaster.cginc using Guid(ae8d06deb98501947846000ba6cd3ab2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b105d45fadecdbef4f6a322dc01cdd19') in 0.015391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_Clipping.shader
+  artifactKey: Guid(345def18d0906d544b7d12b050937392) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_Clipping.shader using Guid(345def18d0906d544b7d12b050937392) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8ceefaba77205a1a8371ca9368dc7b8') in 0.021356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_TransClipping.shader
+  artifactKey: Guid(e8e7d781c3155254b9ea8956c5bd1218) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_TransClipping.shader using Guid(e8e7d781c3155254b9ea8956c5bd1218) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23b4f0a5b5207c56a9e28ea13cb4703b') in 0.020065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Picola/PicoChan/Textures/pico_chan_chr_pico_00_body_c.png
+  artifactKey: Guid(4b25c0ff4a2122446aaae36e8e280175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Textures/pico_chan_chr_pico_00_body_c.png using Guid(4b25c0ff4a2122446aaae36e8e280175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '957697b56e42a417fbd79b60d4eba7bf') in 0.058326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather.shader
+  artifactKey: Guid(9baf30ce95c751649b14d96da3a4b4d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather.shader using Guid(9baf30ce95c751649b14d96da3a4b4d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a344f91fa8bef8b4be99e4894f00f1d7') in 0.027699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_StencilOut.shader
+  artifactKey: Guid(f937ea4ce96dfbe448afc0fb671198e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_StencilOut.shader using Guid(f937ea4ce96dfbe448afc0fb671198e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a12ecc2aad73e08fa5569ef594a1805a') in 0.022634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_Clipping.shader
+  artifactKey: Guid(88791c14394118d42a5e176b433af322) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_Clipping.shader using Guid(88791c14394118d42a5e176b433af322) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d3047ccb31f309dbc284bcdc0f9f1fa') in 0.020625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Picola/Toon/Shader/ToonColor_ShadingGradeMap.shader
+  artifactKey: Guid(af8454e09b3a41448a4140e792059446) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/ToonColor_ShadingGradeMap.shader using Guid(af8454e09b3a41448a4140e792059446) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49cac99dcaf4d26c4ec3df741d02f43e') in 0.021836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_ShadingGradeMap_AngelRing_Mobile_StencilOut.shader
+  artifactKey: Guid(8d33e4e4084e5af449f3e762fecce3c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_ShadingGradeMap_AngelRing_Mobile_StencilOut.shader using Guid(8d33e4e4084e5af449f3e762fecce3c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16fad1f2111a12163b525616a5aad306') in 0.019977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Picola/Toon/Shader/ToonColor_ShadingGradeMap_Transparent_StencilOut.shader
+  artifactKey: Guid(be27d4be45de7dd4ab2e69c992876edb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/ToonColor_ShadingGradeMap_Transparent_StencilOut.shader using Guid(be27d4be45de7dd4ab2e69c992876edb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b49696967d2134c0a853e4d98061ed61') in 0.017896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/ToonColor_ShadingGradeMap_TransClipping_Tess_StencilMask.shader
+  artifactKey: Guid(bf840a439c33c8b4a99d52e6c3d8511f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/ToonColor_ShadingGradeMap_TransClipping_Tess_StencilMask.shader using Guid(bf840a439c33c8b4a99d52e6c3d8511f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '345871c5a3bf4851cea9f886329cc1e6') in 0.021042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Picola/Toon/Shader/ToonColor_DoubleShadeWithFeather_TransClipping_StencilOut.shader
+  artifactKey: Guid(43d0eeb4c46f52841b0941e99ac9b16b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/ToonColor_DoubleShadeWithFeather_TransClipping_StencilOut.shader using Guid(43d0eeb4c46f52841b0941e99ac9b16b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c95e3ee18deed67f8522b1f519138129') in 0.022801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_Clipping_StencilMask.shader
+  artifactKey: Guid(7a735f9b121d96349b6da0a077299424) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_Clipping_StencilMask.shader using Guid(7a735f9b121d96349b6da0a077299424) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ab02478d5716bbb73590f15b27904f8') in 0.021827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_Light.shader
+  artifactKey: Guid(a3214384442742648aa664ef0039d397) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_Light.shader using Guid(a3214384442742648aa664ef0039d397) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a307a0fbad2a02d16ab24b920a4fc4b') in 0.020760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Picola/PicoChan/Textures/pico_chan_chr_pico_00_bag_c.png
+  artifactKey: Guid(6c06ac16cf3f25149af389a0f575eaee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Textures/pico_chan_chr_pico_00_bag_c.png using Guid(6c06ac16cf3f25149af389a0f575eaee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ffb1196368474a17476c5fb3b2043b4') in 0.047798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/ToonColor_ShadingGradeMap_Tess_StencilMask.shader
+  artifactKey: Guid(24c20b8ed5be113499b40f4e3b6b03e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/ToonColor_ShadingGradeMap_Tess_StencilMask.shader using Guid(24c20b8ed5be113499b40f4e3b6b03e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f85ee34aa39c723370c224ce5198fff') in 0.021981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Gizmos/Cinemachine/cm_logo_lg.png
+  artifactKey: Guid(294462d0a0b8def4ba1bbbb52c2d1391) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gizmos/Cinemachine/cm_logo_lg.png using Guid(294462d0a0b8def4ba1bbbb52c2d1391) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9574f0d4297f7df027edb56a817a7731') in 0.025228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/03.Models/Level Art/lanternCandle.fbx
+  artifactKey: Guid(43a4b849b8090ef4d8ffbfbb102923b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/lanternCandle.fbx using Guid(43a4b849b8090ef4d8ffbfbb102923b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c95674a8891edbb6e9eb9fd6e21ad34') in 0.026580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/03.Models/Level Art/lanternDouble.fbx
+  artifactKey: Guid(58bcc37c0606832498edb1579dd6fe08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/lanternDouble.fbx using Guid(58bcc37c0606832498edb1579dd6fe08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0eaca5128ce80c6052970f1c508a4bc0') in 0.023432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_TransClipping_StencilOut.shader
+  artifactKey: Guid(fb47be5a840097b45bac228446468ef3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_TransClipping_StencilOut.shader using Guid(fb47be5a840097b45bac228446468ef3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ee78bd582764e8a2926fb00d5b55e6c') in 0.021146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Picola/Toon/Shader/UCTS_DoubleShadeWithFeather.cginc
+  artifactKey: Guid(80bd7ce6cad775a4e9de24e18eb5e61e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/UCTS_DoubleShadeWithFeather.cginc using Guid(80bd7ce6cad775a4e9de24e18eb5e61e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e026b2abeffa3a99eab8936229682e7') in 0.013579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/UCTS_Tess.cginc
+  artifactKey: Guid(13aee1e1f6c49d94fa292dca9910126e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/UCTS_Tess.cginc using Guid(13aee1e1f6c49d94fa292dca9910126e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25a2a94bb99916f4c69fbc5a1ff8a1c2') in 0.012840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Picola/PicoChan/Models/pico_chan_chr_pico_00.fbx
+  artifactKey: Guid(10038fdbf93c4dd43af9ce774d03a956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Models/pico_chan_chr_pico_00.fbx using Guid(10038fdbf93c4dd43af9ce774d03a956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '353def826e0f98d68beb392bd8e5494f') in 0.082756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/03.Models/Level Art/Tiles.asset
+  artifactKey: Guid(e30a816c4615c45cc8e550edb0c0f17b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/Tiles.asset using Guid(e30a816c4615c45cc8e550edb0c0f17b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0b72bd209f302d23812e2c5b4a87500') in 0.019922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_TransClipping_Tess_StencilOut.shader
+  artifactKey: Guid(d496a1c70c797ad43836d5bfff575b5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_TransClipping_Tess_StencilOut.shader using Guid(d496a1c70c797ad43836d5bfff575b5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee9e33455f1ec7bdeafc00b19393470d') in 0.022612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_ShadingGradeMap.shader
+  artifactKey: Guid(ca035891872022e4f80c952b3916e450) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_ShadingGradeMap.shader using Guid(ca035891872022e4f80c952b3916e450) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eec45e1fd6e6663e96be02fedbb531a7') in 0.020295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess.shader
+  artifactKey: Guid(f0b2fc9b8a189134da9c7d24f361caf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess.shader using Guid(f0b2fc9b8a189134da9c7d24f361caf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15b7edec6ca24256f587f66dd71383d0') in 0.022506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Picola/Toon/Editor/UTS2GUI.cs
+  artifactKey: Guid(e403ef4b1d56fce47b49ec46981d9fcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Editor/UTS2GUI.cs using Guid(e403ef4b1d56fce47b49ec46981d9fcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5618b6741c8795aa436e3be826aab845') in 0.009229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Picola/PicoChan/Materials/pico_clothes_m.mat
+  artifactKey: Guid(c09f00b9fc06ea7478baf60cd314e58c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Materials/pico_clothes_m.mat using Guid(c09f00b9fc06ea7478baf60cd314e58c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d1126f4c371e4a84cdf5c5d0c4faa10') in 0.191715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/ToonColor_ShadingGradeMap_AngelRing_Tess_TransClipping.shader
+  artifactKey: Guid(d3fb22770ec830b43bdb5ccb973e6f76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/ToonColor_ShadingGradeMap_AngelRing_Tess_TransClipping.shader using Guid(d3fb22770ec830b43bdb5ccb973e6f76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8206e70edccb52b6970b6a11389afee2') in 0.021558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_ShadingGradeMap_Mobile.shader
+  artifactKey: Guid(f90e11a40dcf4f745ae6b21b857943fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_ShadingGradeMap_Mobile.shader using Guid(f90e11a40dcf4f745ae6b21b857943fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '462a97385002902c51e0e4016de42c39') in 0.022764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_ShadingGradeMap_AngelRing_Mobile.shader
+  artifactKey: Guid(23e399973d807464fb195291a44a614c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_ShadingGradeMap_AngelRing_Mobile.shader using Guid(23e399973d807464fb195291a44a614c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae2e76fb542e1b43e0fc2266ab193ee1') in 0.021714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_TransClipping_StencilMask.shader
+  artifactKey: Guid(79add09e32e5c4541980118f6c4045b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Toon_DoubleShadeWithFeather_TransClipping_StencilMask.shader using Guid(79add09e32e5c4541980118f6c4045b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd36004ccbcda8c85a4cd49a1c96fe9b7') in 0.021575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/03.Models/Level Art/level fence.mesh
+  artifactKey: Guid(b3bce9cc843594af687d558aec3a97ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03.Models/Level Art/level fence.mesh using Guid(b3bce9cc843594af687d558aec3a97ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd53af3ce703ae533bd06045d8f7300b0') in 0.045615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/Toon_OutlineObject_Tess_StencilOut.shader
+  artifactKey: Guid(06cae78b869a3234bab02eeb52197e1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/Toon_OutlineObject_Tess_StencilOut.shader using Guid(06cae78b869a3234bab02eeb52197e1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bdf5716d71526541a0a47a7a5c85aa0') in 0.013138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Picola/Toon/Shader/ToonColor_ShadingGradeMap_AngelRing_StencilOut.shader
+  artifactKey: Guid(e32270aa38f4b664b90f04cc475fdb81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/ToonColor_ShadingGradeMap_AngelRing_StencilOut.shader using Guid(e32270aa38f4b664b90f04cc475fdb81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '644a3e11985b3279bfcbec978e56e745') in 0.021159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Picola/Toon/Shader/Tess/UCTS_Outline_Tess.cginc
+  artifactKey: Guid(c139664fde6401f45a09b0f32279484b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/Toon/Shader/Tess/UCTS_Outline_Tess.cginc using Guid(c139664fde6401f45a09b0f32279484b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8045312c7b4bd690fb01737df680c1eb') in 0.013765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.258180 seconds.
+  path: Assets/01.Scripts
+  artifactKey: Guid(5478379f53677304fbe5a519fbc9648a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01.Scripts using Guid(5478379f53677304fbe5a519fbc9648a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8da41e67834e85cd07464406a45d59a') in 0.004236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.346179 seconds.
+  path: Assets/01.Scripts/PlayerMovement.cs
+  artifactKey: Guid(e100dcbf088ffe543a5834e17f36f83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01.Scripts/PlayerMovement.cs using Guid(e100dcbf088ffe543a5834e17f36f83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a804ac5d32c9ffe8d270393ad18f7f') in 0.004472 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 93 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (11.6 MB). Loaded Objects now: 4166.
+Memory consumption went from 164.7 MB to 153.1 MB.
+Total: 7.592700 ms (FindLiveObjects: 0.277000 ms CreateObjectMapping: 0.094500 ms MarkObjects: 2.910400 ms  DeleteObjects: 4.310300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
