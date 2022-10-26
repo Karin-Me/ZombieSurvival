@@ -1,6 +1,9 @@
 using UnityEngine;
 
-public class GunData {
+// menuName 디렉토리 지정, fileName 파일이름
+[CreateAssetMenu(menuName = "Scriptable/GunData", fileName = "Gun Data")]
+public class GunData : ScriptableObject 
+{
     public AudioClip shotClip; // 발사 소리
     public AudioClip reloadClip; // 재장전 소리
 

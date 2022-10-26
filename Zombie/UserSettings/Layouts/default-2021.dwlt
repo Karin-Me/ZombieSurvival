@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 113
+  controlID: 55
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 56
+  controlID: 86
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 33
+  controlID: 62
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,8 +243,8 @@ MonoBehaviour:
     y: 0
     width: 489
     height: 483
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -300,7 +300,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 114
+  controlID: 56
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -579,9 +579,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.5148659, y: 0.34728697, z: 2.184013}
+    m_Target: {x: -0.037870914, y: 0.7505536, z: 0.055842847}
     speed: 2
-    m_Value: {x: -2.5148659, y: 0.34728697, z: 2.184013}
+    m_Value: {x: -0.037870914, y: 0.7505536, z: 0.055842847}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -628,13 +628,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.3655251, y: 0.060587708, z: -0.02368544, w: -0.928586}
+    m_Target: {x: 0.15417987, y: -0.84534925, z: 0.34298134, w: 0.37959126}
     speed: 2
-    m_Value: {x: -0.36550456, y: 0.060584307, z: -0.02368411, w: -0.92853385}
+    m_Value: {x: 0.1541712, y: -0.8453017, z: 0.34296203, w: 0.3795699}
   m_Size:
-    m_Target: 2.338628
+    m_Target: 1.9639965
     speed: 2
-    m_Value: 2.338628
+    m_Value: 1.9639965
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -899,20 +899,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 86650000
       m_LastClickedID: 0
-      m_ExpandedIDs: 58c6ffff72c9ffff1ed2ffffeafaffff785d0000
+      m_ExpandedIDs: eafaffff605d0000685d00008a5d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Gun Pivot
-        m_OriginalName: Gun Pivot
+        m_Name: Woman
+        m_OriginalName: Woman
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -11746
+        m_UserData: -2684
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -979,9 +979,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ba640000
-    m_LastClickedID: 25786
-    m_ExpandedIDs: 000000009464000096640000986400009a6400009c6400009e640000a0640000a264000000ca9a3b
+    m_SelectedIDs: 3e650000
+    m_LastClickedID: 25918
+    m_ExpandedIDs: 0000000016650000186500001a6500001c6500001e65000020650000226500002465000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1009,7 +1009,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009464000096640000986400009a6400009c6400009e640000a0640000a2640000
+    m_ExpandedIDs: 0000000016650000186500001a6500001c6500001e650000206500002265000024650000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1040,15 +1040,15 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 000000007a6000007288000086730000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: GunData
-      m_OriginalName: GunData
+      m_Name: Gun
+      m_OriginalName: Gun
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 27858
+      m_UserData: 25990
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
