@@ -359,6 +359,7 @@
 "Assets/01.Scripts/GameManager.cs"
 "Assets/01.Scripts/Gun.cs"
 "Assets/01.Scripts/GunData.cs"
+"Assets/01.Scripts/IDamageable.cs"
 "Assets/01.Scripts/PlayerInput.cs"
 "Assets/01.Scripts/PlayerMovement.cs"
 -langversion:9.0
