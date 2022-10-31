@@ -112,7 +112,7 @@ public class Gun : MonoBehaviour {
         magAmmo--;
         if (magAmmo <= 0)
         {
-            // 탄창에 남은 탄알이 없다면 총의 현재 상태를 Empty로 갱신
+            // 만약 탄창에 남은 탄알이 없다면 총의 현재 상태를 Empty로 갱신
             state = State.Empty;
         }
     }
